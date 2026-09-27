@@ -1,0 +1,15 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "ws-serverless-patterns-polling"
+capabilities = ["CAPABILITY_IAM"]
+resolve_s3 = true
+confirm_changeset = false
+fail_on_empty_changeset = false
+
+[default.deploy.parameters.parameter_overrides]
+UserPool = "us-east-1_fiGCXJq4x"
+OrdersTablename = "ws-serverless-patterns-orders-OrdersTable-QNJJ45UTNE1J"
+
+[default.global.parameters]
+region = "us-east-1"
