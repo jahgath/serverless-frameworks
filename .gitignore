@@ -1,0 +1,8 @@
+.aws-sam/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+ws-serverless-patterns.zip
